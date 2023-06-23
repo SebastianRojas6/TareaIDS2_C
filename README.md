@@ -48,7 +48,7 @@ Como lo hicimos con el driver anterior, entraremos a la terminal como administra
 - Esperames a que termine el proceso
 - Por ultimo ejecutamos el comando de instalación cmake --build . --target install (Nos creará una carpeta llamada mongo-cxx-driver, verifique que se encuentre en C:\)
 
-## Configuración del entorno de desarrollo en Visual Studio
+## Configuración del entorno de desarrollo en Visual Studio Community
 -Entramos a Microsoft Visual Studio Community y creamos un nuevo proyecto
 
 -Seleccionamos la plantilla de "Aplicacion de Consola"
