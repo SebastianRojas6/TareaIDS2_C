@@ -50,21 +50,29 @@ Como lo hicimos con el driver anterior, entraremos a la terminal como administra
 
 ## Configuración del entorno de desarrollo en Visual Studio
 -Entramos a Microsoft Visual Studio Community y creamos un nuevo proyecto
+
 -Seleccionamos la plantilla de "Aplicacion de Consola"
+
 -Visual Studio habrá creado un proyecto y abierto un arhcivo .cpp que imprime un "Hola Mundo". Navega hasta el panel de Solution Explorer, haga click derecho en el nombre de la solución y haga click en propiedades
+
 -Ve a Configuration Properties > C/C++ > General > Additional Include Directories
+
 -Dentro agrega los siguientes directorios:
    - C:\mongo-cxx-driver\include\mongocxx\v_noabi
    - C:\mongo-cxx-driver\include\bsoncxx\v_noabi
    - C:\mongo-c-driver\include\libbson-1.0
    - C:\mongo-c-driver\include\libmongoc-1.0
+
 -Ahora ve a Configuration Properties > C/C++ > Language, y cambia el lenguaje estandar a C++ 17
+
 -Luego ve a Configuration Properties > C/C++ > Command Line y agrega /Zc:__cplusplus en Additional Options
+
 -Ve a Configuration Properties > Linker > Input y en Additional Dependencies agrega
    - C:\mongo-c-driver\lib\bson-1.0.lib
    - C:\mongo-c-driver\lib\mongoc-1.0.lib
    - C:\mongo-cxx-driver\lib\bsoncxx.lib
    - C:\mongo-cxx-driver\lib\mongocxx.lib
+
 -Por último, iremos a Configuration Properties > Debugging > Environment y agregaremos PATH=C:\mongo-cxx-driver\bin;C:\mongo-c-driver\bin
 
 ## Conectando nuestro proyecto en C++ con mongodb
