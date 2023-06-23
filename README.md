@@ -83,3 +83,5 @@ Como lo hicimos con el driver anterior, entraremos a la terminal como administra
 -Hacemos click en Local Windows Debugger para compilar y ejecutar el proyecto
 
 -Eso es todo, si en la consola te aparecen los mensajes correctos, significa que ya estas conectado a tu base de datos de MongoDB
+
+-Para hacer lo mismo con tu proyecto, simplemente copia las lines de codigo necesarias.(No olvides incluir las librerias).
