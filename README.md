@@ -77,6 +77,9 @@ Como lo hicimos con el driver anterior, entraremos a la terminal como administra
 
 ## Conectando nuestro proyecto en C++ con mongodb
 -Copiamos el código que nos da Atlas MongoDB (Habilitamos View full code sample).
+
 -Pegamos el codigo en Visual Studio, ahora cambiamos donde dice <username> y <password> por nuestro usuario y contraseña
+
 -Hacemos click en Local Windows Debugger para compilar y ejecutar el proyecto
+
 -Eso es todo, si en la consola te aparecen los mensajes correctos, significa que ya estas conectado a tu base de datos de MongoDB
