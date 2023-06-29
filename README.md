@@ -1,6 +1,7 @@
 # TareaIDS2_C++
 Segunda tarea de IDS Grupo 7
 # Conexión entre Atlas MongoDB y un proyecto en C++
+Esta es una adaptación/traducción del tutorial ofrecido por MongoDB: https://www.mongodb.com/developer/products/mongodb/getting-started-mongodb-cpp/
 
 ## Prerrequisitos
 Tener una cuenta en MongoDB Atlas y un cluster creado
